@@ -1,0 +1,1390 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32674 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+H:\Unity\Unity Installs\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/Unity/UnityProjects/takehometest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60769
+Successfully changed project path to: H:/Unity/UnityProjects/takehometest
+H:/Unity/UnityProjects/takehometest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path H:/Unity/Unity Installs/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Unity/UnityProjects/takehometest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'H:/Unity/Unity Installs/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'H:/Unity/Unity Installs/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'H:/Unity/Unity Installs/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: H:/Unity/Unity Installs/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: H:/Unity/Unity Installs/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000905 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 24.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001468 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 1875.
+Total: 1.736100 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.434000 ms  DeleteObjects: 0.058000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/cell.prefab
+  artifactKey: Guid(ebd78d08a88694a49aee8d7b23db7df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/cell.prefab using Guid(ebd78d08a88694a49aee8d7b23db7df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3c6282b409a442b613299926150bbc') in 0.084243 seconds
+  Import took 0.086545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Prefabs/mixingcell.prefab
+  artifactKey: Guid(5cbcb0c6d9b0e4babaeee507e8be1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/mixingcell.prefab using Guid(5cbcb0c6d9b0e4babaeee507e8be1fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb102cecbc3869002c620ff2412f7e5') in 0.004702 seconds
+  Import took 0.006400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(14f58759f50144a9785d463085ad6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(14f58759f50144a9785d463085ad6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb624821dea7705fae3744bea4f0fe15') in 0.000668 seconds
+  Import took 0.002055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/item.prefab
+  artifactKey: Guid(e0ca2dcbb421a40f6b607a7b1b392196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/item.prefab using Guid(e0ca2dcbb421a40f6b607a7b1b392196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d55684dd8cd975c734ebb7c215cc4d9') in 0.006421 seconds
+  Import took 0.008233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.425743 seconds.
+  path: Assets/UI/Food/MATERIALS/material_dairy_cheese.png
+  artifactKey: Guid(5ac90aac8b33049999e40e2cf41d5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_dairy_cheese.png using Guid(5ac90aac8b33049999e40e2cf41d5af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192da9761a5eeeccf56da37e0ba10603') in 0.031572 seconds
+  Import took 0.034748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_tumeric.png
+  artifactKey: Guid(0b3bd8f2c8bf5433da47d4df2e7d31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_tumeric.png using Guid(0b3bd8f2c8bf5433da47d4df2e7d31c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc118b90a93df0864b3e53672227775') in 0.012366 seconds
+  Import took 0.014261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_macademia.png
+  artifactKey: Guid(b4acb1d85232a4cceb8f734c5f94db68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_macademia.png using Guid(b4acb1d85232a4cceb8f734c5f94db68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a1f37573b68bacf8de3e787fe60471') in 0.006507 seconds
+  Import took 0.008219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_peach.png
+  artifactKey: Guid(e98839eb812c44fee867f146733d9fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_peach.png using Guid(e98839eb812c44fee867f146733d9fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05643e8fc60b4d54738ec506d8ab792f') in 0.014065 seconds
+  Import took 0.015833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_quailegg.png
+  artifactKey: Guid(6d7e118902eb24419a57b102c946bbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_quailegg.png using Guid(6d7e118902eb24419a57b102c946bbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf64284b3bb038b5e1edb08fbca5694') in 0.015500 seconds
+  Import took 0.017384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_gooseegg.png
+  artifactKey: Guid(8c75f03edffeb44e5937f3cbbb3ea9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_gooseegg.png using Guid(8c75f03edffeb44e5937f3cbbb3ea9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b95b986b974b9a22e416651fb878f2') in 0.015048 seconds
+  Import took 0.016981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_pecan.png
+  artifactKey: Guid(11add0f4057f74b2e9b6352e43532ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_pecan.png using Guid(11add0f4057f74b2e9b6352e43532ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348e925b6ba2828f9835f14ebefdd5b0') in 0.012955 seconds
+  Import took 0.014838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_plum.png
+  artifactKey: Guid(3b8e1a26e0be846d082c4d882839b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_plum.png using Guid(3b8e1a26e0be846d082c4d882839b5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb47802cb4b91e368e962d400ad46c0b') in 0.018172 seconds
+  Import took 0.020106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_egg.png
+  artifactKey: Guid(90b0a6e709c9740c2bfe3a7b409642b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_egg.png using Guid(90b0a6e709c9740c2bfe3a7b409642b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65edb987e6e2f70f006820534ae479b7') in 0.006200 seconds
+  Import took 0.007682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_ostrichegg.png
+  artifactKey: Guid(a0a16aebb77324e53bb62f5f87f1d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_ostrichegg.png using Guid(a0a16aebb77324e53bb62f5f87f1d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8bfc1e4f830aeaf6f8568a59464707') in 0.018985 seconds
+  Import took 0.020748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_pumpkin.png
+  artifactKey: Guid(91c37532cf885490c822aef9e05f983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_pumpkin.png using Guid(91c37532cf885490c822aef9e05f983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32ffecf2af4b37ecf242114017b0c14') in 0.013732 seconds
+  Import took 0.015759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/UI/Food/MATERIALS/material_dairy_milk.png
+  artifactKey: Guid(0b6be8224529240e39dddabc414df00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_dairy_milk.png using Guid(0b6be8224529240e39dddabc414df00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb02171d8c28b0960184f6414a752c') in 0.014580 seconds
+  Import took 0.016534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_brazilnut.png
+  artifactKey: Guid(362753feb15ec4d3086ee1c59bce6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_brazilnut.png using Guid(362753feb15ec4d3086ee1c59bce6020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d54fcfc1923e7e6a5c0657acbe60989') in 0.004658 seconds
+  Import took 0.006190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_pigeonegg.png
+  artifactKey: Guid(e386218b34ded4e68bbe7a448f24c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_pigeonegg.png using Guid(e386218b34ded4e68bbe7a448f24c9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555dba1e533028e16caaca9424e9d1c9') in 0.004222 seconds
+  Import took 0.005674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_hazelnut.png
+  artifactKey: Guid(10a82b2a22d0446c789834ceeacc14b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_hazelnut.png using Guid(10a82b2a22d0446c789834ceeacc14b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6882cab31f7e8deed60d4c199f0d56f') in 0.004710 seconds
+  Import took 0.006469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_salt.png
+  artifactKey: Guid(7f168cd4e84b64fe6a5a48043917d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_salt.png using Guid(7f168cd4e84b64fe6a5a48043917d867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6add5ea8439c612f124d0fa5fbf18939') in 0.005625 seconds
+  Import took 0.007219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_apricot.png
+  artifactKey: Guid(abc0752ab64c6408ba7bfe0705fc9c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_apricot.png using Guid(abc0752ab64c6408ba7bfe0705fc9c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5ada8bd72c5eeb0978b01d47c833af') in 0.004581 seconds
+  Import took 0.006153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_coffee.png
+  artifactKey: Guid(6d3c3394bbf3b467eb8699a48bba0de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_coffee.png using Guid(6d3c3394bbf3b467eb8699a48bba0de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8def9ffbf5d0d9be794668616e29c0f') in 0.004259 seconds
+  Import took 0.005750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/UI/Food/MATERIALS/material_sweetener_maplesap.png
+  artifactKey: Guid(f1ac4c1f9f3bd4f1f9eedef48f713fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_sweetener_maplesap.png using Guid(f1ac4c1f9f3bd4f1f9eedef48f713fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80dad7866bdab8be387d7c3f069369a3') in 0.004250 seconds
+  Import took 0.005749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_cinnamon.png
+  artifactKey: Guid(5b39e94a998c744fc95366426b432722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_cinnamon.png using Guid(5b39e94a998c744fc95366426b432722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa769b2a237ce19f041d210e95139250') in 0.004871 seconds
+  Import took 0.006585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_poppyseeds.png
+  artifactKey: Guid(962b55fc8f3744e49a473c7d19521916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_poppyseeds.png using Guid(962b55fc8f3744e49a473c7d19521916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcb66fadb243ec11256f29b917ba5df') in 0.005345 seconds
+  Import took 0.007082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_anise.png
+  artifactKey: Guid(7814fe949c9c040838ea8cb0690906e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_anise.png using Guid(7814fe949c9c040838ea8cb0690906e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf27a92db8a29f14ea7faa2f0de88bb7') in 0.005081 seconds
+  Import took 0.007184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_banana.png
+  artifactKey: Guid(e8f183caf40c14258987ea52ecc2f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_banana.png using Guid(e8f183caf40c14258987ea52ecc2f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99e050a7253799c8a9ee6696a0438cb') in 0.005047 seconds
+  Import took 0.006993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_almond.png
+  artifactKey: Guid(388dd1c8b7277483f922a4922c123ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_almond.png using Guid(388dd1c8b7277483f922a4922c123ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bf0ea2793131f9ffb981ddf90a60f8') in 0.004626 seconds
+  Import took 0.006230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_apple.png
+  artifactKey: Guid(30effa627b44b46869acc4262b620c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_apple.png using Guid(30effa627b44b46869acc4262b620c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9457fb1d6d39d083fcb19ec66cb918') in 0.004696 seconds
+  Import took 0.006421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/UI/Food/MATERIALS/material_wheat_crackedwheat.png
+  artifactKey: Guid(d8009fe0001a941d6bdd1ee9115e2882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_wheat_crackedwheat.png using Guid(d8009fe0001a941d6bdd1ee9115e2882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8aee661e5ee20f75c2696f35c5a7dc2') in 0.005473 seconds
+  Import took 0.007172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UI/Food/MATERIALS/material_wheat_flour.png
+  artifactKey: Guid(32d35464e701b4056856ae9805a0718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_wheat_flour.png using Guid(32d35464e701b4056856ae9805a0718a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b325113130633fd320430ddfd80966b8') in 0.004323 seconds
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_robinegg.png
+  artifactKey: Guid(310d8c1c8a16e414a9a1af72f96292fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_robinegg.png using Guid(310d8c1c8a16e414a9a1af72f96292fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8901580f7f7871cda5d843f7abab53a7') in 0.004957 seconds
+  Import took 0.006488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/UI/Food/MATERIALS/material_egg_duckegg.png
+  artifactKey: Guid(eefa0829dc4464cf3ab4b799e046a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_egg_duckegg.png using Guid(eefa0829dc4464cf3ab4b799e046a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50405bbe039ea6bef8388c0c7ed79f1d') in 0.004387 seconds
+  Import took 0.005896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_walnut.png
+  artifactKey: Guid(3d8cc9cbc5a8e4747a7c3fb596e3435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_walnut.png using Guid(3d8cc9cbc5a8e4747a7c3fb596e3435d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffef6e67d661d86695083a7e9f542a9') in 0.005649 seconds
+  Import took 0.007234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/MATERIALS/material_wheat_wheat.png
+  artifactKey: Guid(29248e337005b47b9b087b237aebb1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_wheat_wheat.png using Guid(29248e337005b47b9b087b237aebb1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5b41f78bd96cafa0d793e84824eeed') in 0.005406 seconds
+  Import took 0.006975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_chili.png
+  artifactKey: Guid(03a5fa55780ad49809db0b915138d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_chili.png using Guid(03a5fa55780ad49809db0b915138d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31aa42bba53ed723d80d15f7e610cd33') in 0.004581 seconds
+  Import took 0.006315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Food/MATERIALS/material_spice_curry.png
+  artifactKey: Guid(d937bf4bed54d442ba88e45cf24c8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_spice_curry.png using Guid(d937bf4bed54d442ba88e45cf24c8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8453c0b15e7dcb38323b4603f24f0225') in 0.004416 seconds
+  Import took 0.005933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_Berries.png
+  artifactKey: Guid(71f042da13d2c420795cfa0a9d8f7bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_Berries.png using Guid(71f042da13d2c420795cfa0a9d8f7bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b359ac704881e628cb9105365b877192') in 0.004691 seconds
+  Import took 0.006191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_pistachio.png
+  artifactKey: Guid(b204cdf1bba804d8b8c596d87201912f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_pistachio.png using Guid(b204cdf1bba804d8b8c596d87201912f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0394a491114c482a235868ab0973113') in 0.004798 seconds
+  Import took 0.006335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_lemon.png
+  artifactKey: Guid(8b646306e4f334bd68cb6cf1037c8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_lemon.png using Guid(8b646306e4f334bd68cb6cf1037c8f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09167541a2ad634b061de13c198d4307') in 0.005318 seconds
+  Import took 0.006890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/UI/Food/MATERIALS/material_sweetener_maplesyrup.png
+  artifactKey: Guid(fdb4b64ac50574813b30212db2775fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_sweetener_maplesyrup.png using Guid(fdb4b64ac50574813b30212db2775fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06135b8c6dbc9d4f60c08da65c273921') in 0.004096 seconds
+  Import took 0.005638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/UI/Food/MATERIALS/material_fruit_cherry.png
+  artifactKey: Guid(e46107c87fc754a1a99dab02d16b25a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_fruit_cherry.png using Guid(e46107c87fc754a1a99dab02d16b25a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114bab05877365e32bacf0d135e8b98a') in 0.004419 seconds
+  Import took 0.005903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_cashew.png
+  artifactKey: Guid(003fbae61f74d43bdaf0b5272615e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_cashew.png using Guid(003fbae61f74d43bdaf0b5272615e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8cd74c1405db067c69a391d519f1ae') in 0.004706 seconds
+  Import took 0.006106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/UI/Food/MATERIALS/material_sweetener_maplesugar.png
+  artifactKey: Guid(f49c9aba85dd94c2486c14e0292def22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_sweetener_maplesugar.png using Guid(f49c9aba85dd94c2486c14e0292def22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3599b3b3756cbf40fe1da82ad31907f') in 0.004214 seconds
+  Import took 0.005710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/meatCooked_NE.png
+  artifactKey: Guid(3f6d506db06b5db4b98b1be1551a7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatCooked_NE.png using Guid(3f6d506db06b5db4b98b1be1551a7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9515783323147a817b63f1ebe9dc394') in 0.005183 seconds
+  Import took 0.006935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/UI/Food/MATERIALS/material_nut_cashew.png
+  artifactKey: Guid(003fbae61f74d43bdaf0b5272615e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/MATERIALS/material_nut_cashew.png using Guid(003fbae61f74d43bdaf0b5272615e240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8cd74c1405db067c69a391d519f1ae') in 0.005801 seconds
+  Import took 0.007827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011738 seconds.
+  path: Assets/UI/Food/meatCooked_NE.png
+  artifactKey: Guid(3f6d506db06b5db4b98b1be1551a7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatCooked_NE.png using Guid(3f6d506db06b5db4b98b1be1551a7218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9515783323147a817b63f1ebe9dc394') in 0.004639 seconds
+  Import took 0.006647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.692706 seconds.
+  path: Assets/UI/Used/Test/meatCooked_NW.png
+  artifactKey: Guid(26ac6fa78dd153f4aaafb05b92ccb989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Test/meatCooked_NW.png using Guid(26ac6fa78dd153f4aaafb05b92ccb989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222e7d16e1acd0b54554d89dda6a93fb') in 0.005752 seconds
+  Import took 0.008004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/UI/Food/meatPatty_NW.png
+  artifactKey: Guid(68fa4a8477613b34d817345520867541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatPatty_NW.png using Guid(68fa4a8477613b34d817345520867541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d70f2baaa0ea01c14caf9ce11d41ac') in 0.004549 seconds
+  Import took 0.006848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/meatPatty_SW.png
+  artifactKey: Guid(47b01ab8c06f1554a9e4c6119820fec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatPatty_SW.png using Guid(47b01ab8c06f1554a9e4c6119820fec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae651229d972abc3e611fd1de76b8e1') in 0.004118 seconds
+  Import took 0.005675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/UI/Food/meatRaw_SE.png
+  artifactKey: Guid(64a9c213e759a1a4f9458f3ac5f0991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatRaw_SE.png using Guid(64a9c213e759a1a4f9458f3ac5f0991b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f99dcd6ede509623cef2ab1e0d8cc0b') in 0.003806 seconds
+  Import took 0.005210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Used/Test/meatPatty_NE.png
+  artifactKey: Guid(241b21a095c23d74ea787e5f2e42d2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Test/meatPatty_NE.png using Guid(241b21a095c23d74ea787e5f2e42d2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5609449a1e6cf6f7f4319a48b0f5bfe3') in 0.005377 seconds
+  Import took 0.007102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Used/Test/meatRaw_NW.png
+  artifactKey: Guid(65c8e282c0074334aa315fbb98c0df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Test/meatRaw_NW.png using Guid(65c8e282c0074334aa315fbb98c0df1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e844011569667e6443b51a730167a50d') in 0.004180 seconds
+  Import took 0.005686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/UI/Food/meatCooked_SE.png
+  artifactKey: Guid(78a74b2f2c4d7ce44afedad34bb44a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatCooked_SE.png using Guid(78a74b2f2c4d7ce44afedad34bb44a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6620b51dace55403bc629da02ddce84') in 0.006008 seconds
+  Import took 0.007689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/UI/Food/meatPatty_SE.png
+  artifactKey: Guid(fc5187063d7406f4496bff41f80d8220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatPatty_SE.png using Guid(fc5187063d7406f4496bff41f80d8220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1b76d8e052cb23328eb82c400eda05') in 0.003934 seconds
+  Import took 0.005434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Used/Test/meatRibs_NE.png
+  artifactKey: Guid(5328cca3997565d41baaa56c0af3b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Test/meatRibs_NE.png using Guid(5328cca3997565d41baaa56c0af3b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df753dbc2c6706d64415f35c1ce7e31') in 0.004424 seconds
+  Import took 0.006101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/UI/Food/meatTenderizer_NE.png
+  artifactKey: Guid(b6c26f6108fbf1743a05abcb74819ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatTenderizer_NE.png using Guid(b6c26f6108fbf1743a05abcb74819ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c555dbc419e5a83c950a5a54813303ca') in 0.003953 seconds
+  Import took 0.005372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/UI/Used/Test/meatSausage_NE.png
+  artifactKey: Guid(350ee2cc311c5bd459a6376fbae2b7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Test/meatSausage_NE.png using Guid(350ee2cc311c5bd459a6376fbae2b7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115bc0d472a5eee0926905e06d030532') in 0.004346 seconds
+  Import took 0.005723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/UI/Food/meatSausage_NW.png
+  artifactKey: Guid(1b97903d96e06cc41bf692b9b3919a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatSausage_NW.png using Guid(1b97903d96e06cc41bf692b9b3919a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68bafe488120d67d7c5f98176550a0e') in 0.005048 seconds
+  Import took 0.007003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/UI/Food/meatRibs_SW.png
+  artifactKey: Guid(59bb35b139a8f5b42b836afc090c4c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatRibs_SW.png using Guid(59bb35b139a8f5b42b836afc090c4c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcca36fd958db593cda7984b7f2b3b1f') in 0.004846 seconds
+  Import took 0.006747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/UI/Food/meatRibs_NW.png
+  artifactKey: Guid(4e818e3f193892b44930718df55dad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatRibs_NW.png using Guid(4e818e3f193892b44930718df55dad92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a429412ed49ca319b3f80452a6e5ca') in 0.003927 seconds
+  Import took 0.005452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/UI/Food/meatRaw_SW.png
+  artifactKey: Guid(ecfc62be9f03a8045bc3aac07118beee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatRaw_SW.png using Guid(ecfc62be9f03a8045bc3aac07118beee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d14ea97c8303eab61246218423eb145') in 0.004076 seconds
+  Import took 0.005629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/UI/Food/meatSausage_SW.png
+  artifactKey: Guid(da21ffa736da85f40ab42a488b7ab1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatSausage_SW.png using Guid(da21ffa736da85f40ab42a488b7ab1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c2cfa98f31c7ec89dc90557621bca1') in 0.004075 seconds
+  Import took 0.005488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/UI/Food/meatRibs_SE.png
+  artifactKey: Guid(ea49903bd59f7084f9b73cdace64ab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatRibs_SE.png using Guid(ea49903bd59f7084f9b73cdace64ab32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f988363b56cd3a02c239349e6a9ba6c') in 0.004579 seconds
+  Import took 0.006221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/meatCooked_SW.png
+  artifactKey: Guid(f61286b2abbff0d4591e7ead9b03ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatCooked_SW.png using Guid(f61286b2abbff0d4591e7ead9b03ba2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26ec5df9c75d9bcaa17e8a5488cdb38') in 0.004462 seconds
+  Import took 0.006074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/UI/Food/meatRaw_NE.png
+  artifactKey: Guid(75554a44c34f52849beb320c0209dbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatRaw_NE.png using Guid(75554a44c34f52849beb320c0209dbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ba85f7bb474c993508a614c0c6108') in 0.005029 seconds
+  Import took 0.007188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/UI/Food/meatSausage_SE.png
+  artifactKey: Guid(df9799b06f5cb704c8d3210a62dbea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatSausage_SE.png using Guid(df9799b06f5cb704c8d3210a62dbea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac063ac759770d7645fcc1868a133aa') in 0.004336 seconds
+  Import took 0.006013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010150 seconds.
+  path: Assets/UI/Food/meatSausage_SE.png
+  artifactKey: Guid(df9799b06f5cb704c8d3210a62dbea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatSausage_SE.png using Guid(df9799b06f5cb704c8d3210a62dbea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac063ac759770d7645fcc1868a133aa') in 0.005530 seconds
+  Import took 0.007499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195142 seconds.
+  path: Assets/UI/Food/meatTenderizer_NW.png
+  artifactKey: Guid(eba99686b845bbc409154c8e2ea7a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatTenderizer_NW.png using Guid(eba99686b845bbc409154c8e2ea7a355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7172cc82704f93e0682dbd0ac7ddcbe8') in 0.005441 seconds
+  Import took 0.007490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/UI/Food/mortar_NW.png
+  artifactKey: Guid(8ca3129d61a285f4eaa5a387ca42492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortar_NW.png using Guid(8ca3129d61a285f4eaa5a387ca42492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf511d70d9108ddd7445caec1ddafd1') in 0.003590 seconds
+  Import took 0.004907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/UI/Food/mincemeatPie_SE.png
+  artifactKey: Guid(ccbd25896243aff488f984e31ac797ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mincemeatPie_SE.png using Guid(ccbd25896243aff488f984e31ac797ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1086259dd561e45c3ba40c8c689e8a') in 0.004113 seconds
+  Import took 0.005616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/mincemeatPie_SW.png
+  artifactKey: Guid(b83f1823c40931f438d3e846dd13e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mincemeatPie_SW.png using Guid(b83f1823c40931f438d3e846dd13e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2d0bf7e1fe2ac8385c86e31aa32dfa') in 0.004229 seconds
+  Import took 0.005611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/mincemeatPie_NE.png
+  artifactKey: Guid(c94fb2c98d985c1498580a8c3e33dfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mincemeatPie_NE.png using Guid(c94fb2c98d985c1498580a8c3e33dfd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4856eddca28085b12ba9b53d5e2eb298') in 0.003802 seconds
+  Import took 0.005205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/UI/Food/meatTenderizer_SW.png
+  artifactKey: Guid(443ad958d4894ee4bbe1a658e060bde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatTenderizer_SW.png using Guid(443ad958d4894ee4bbe1a658e060bde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268b82199eb51102b5dfc42fcc0e9546') in 0.004483 seconds
+  Import took 0.006264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Images/Metal.jpg
+  artifactKey: Guid(88c202ecb6d5b4c8eb309bda5ebf6b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Metal.jpg using Guid(88c202ecb6d5b4c8eb309bda5ebf6b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce92b02e5dbe5aa52ba6448d278d1829') in 0.011210 seconds
+  Import took 0.012977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/UI/Food/mincemeatPie_NW.png
+  artifactKey: Guid(1839a49c36cf495419136268dea59959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mincemeatPie_NW.png using Guid(1839a49c36cf495419136268dea59959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9933c241ec89f85d87e43746b9b87e7') in 0.004460 seconds
+  Import took 0.005934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/UI/Food/mortarPestle_SE.png
+  artifactKey: Guid(76e80be697082bb48afa14b47d1ccc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortarPestle_SE.png using Guid(76e80be697082bb48afa14b47d1ccc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6da3ebf1e3ccf80d8befa30455c2588') in 0.004140 seconds
+  Import took 0.005531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/UI/Food/mortar_SE.png
+  artifactKey: Guid(15b0bb1caade2c946b53e0325d7e2367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortar_SE.png using Guid(15b0bb1caade2c946b53e0325d7e2367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a76b4446c25402c0037a7ec5d4ed3') in 0.004121 seconds
+  Import took 0.005681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/UI/Food/mortarPestle_NW.png
+  artifactKey: Guid(28e438147a605a34694cb1af6886ca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortarPestle_NW.png using Guid(28e438147a605a34694cb1af6886ca2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b7d3a9481b1b79d4af111d71486268') in 0.004111 seconds
+  Import took 0.005832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Images/Mud.jpg
+  artifactKey: Guid(0eae5cd9fb9a745f89feb6e713765597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Mud.jpg using Guid(0eae5cd9fb9a745f89feb6e713765597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbab3e8fbb598a196243eceb4bb515c') in 0.005860 seconds
+  Import took 0.007885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Food/mushroom_NW.png
+  artifactKey: Guid(ae0c26615129f1d46807d65d00b51c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroom_NW.png using Guid(ae0c26615129f1d46807d65d00b51c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4fa3cfc4d02fbcf5c67328f8d94699f') in 0.004883 seconds
+  Import took 0.006836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/UI/Food/mug_NW.png
+  artifactKey: Guid(a434f98a56ab7e545bd8b719471a716e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mug_NW.png using Guid(a434f98a56ab7e545bd8b719471a716e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd010d0faee07574b39ba80dad5c647') in 0.004142 seconds
+  Import took 0.005842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/UI/Food/mug_NE.png
+  artifactKey: Guid(e3db3108a04618d4aa26d814bf5f4697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mug_NE.png using Guid(e3db3108a04618d4aa26d814bf5f4697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaca0d4b397af951fc9c39471cd977b') in 0.004373 seconds
+  Import took 0.006466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/UI/Food/mushroomHalf_NE.png
+  artifactKey: Guid(aaa99318b1d2781478f9783253682e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroomHalf_NE.png using Guid(aaa99318b1d2781478f9783253682e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4345457c81a1aea5a81ee0d97776174e') in 0.004784 seconds
+  Import took 0.007398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/UI/Food/mussel_NE.png
+  artifactKey: Guid(ccfb95b402b158c42b01b5ccebf9ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mussel_NE.png using Guid(ccfb95b402b158c42b01b5ccebf9ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69470ce139150f539d43ea73dac1a39') in 0.005248 seconds
+  Import took 0.007201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/UI/Food/mussel_NW.png
+  artifactKey: Guid(8be51916172c2d64b9ea04bc695c49cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mussel_NW.png using Guid(8be51916172c2d64b9ea04bc695c49cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfd4da702745dfd2ca60a226eee6682') in 0.004364 seconds
+  Import took 0.006312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/UI/Food/mug_SE.png
+  artifactKey: Guid(95c00d52af0d9ae4387e95387155da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mug_SE.png using Guid(95c00d52af0d9ae4387e95387155da79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7089c47a46109a97639704cd4141853f') in 0.004481 seconds
+  Import took 0.006052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/mushroom_SE.png
+  artifactKey: Guid(101fb9fc29cb0e044ad5ef4de7809c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroom_SE.png using Guid(101fb9fc29cb0e044ad5ef4de7809c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9646beac7072796716d85ab0595031d1') in 0.005008 seconds
+  Import took 0.006784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/UI/Food/mortar_SW.png
+  artifactKey: Guid(b4079930cd0e71c44b4caf7ddb1b5d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortar_SW.png using Guid(b4079930cd0e71c44b4caf7ddb1b5d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6d54e7bda7a9ae9723334fd5a2fdb2') in 0.005468 seconds
+  Import took 0.007119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/UI/Food/mortarPestle_NE.png
+  artifactKey: Guid(3aec2769af45de747801f0c4c6e3753e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortarPestle_NE.png using Guid(3aec2769af45de747801f0c4c6e3753e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3226da2d21a539a5fd1d02397e2ac43') in 0.004057 seconds
+  Import took 0.005651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/UI/Food/mortarPestle_SW.png
+  artifactKey: Guid(0f92c529f5fd949499e89fc574cfc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortarPestle_SW.png using Guid(0f92c529f5fd949499e89fc574cfc265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b88783a1ef10e38934663dda58c6737') in 0.004371 seconds
+  Import took 0.006028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/UI/Food/muffin_SE.png
+  artifactKey: Guid(02e7471395c51034ebe5472fb6acacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/muffin_SE.png using Guid(02e7471395c51034ebe5472fb6acacba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18add557a949560937283f65deccd172') in 0.003942 seconds
+  Import took 0.005471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/UI/Food/mushroomHalf_NW.png
+  artifactKey: Guid(f14f4f5f13d02aa43b25c7eae945e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroomHalf_NW.png using Guid(f14f4f5f13d02aa43b25c7eae945e8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcc19e8ddd31ac1f422ffbb313e2411') in 0.004140 seconds
+  Import took 0.005730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/UI/Food/mushroomHalf_SW.png
+  artifactKey: Guid(246b68c8be0837e44bbc06b0a39a3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroomHalf_SW.png using Guid(246b68c8be0837e44bbc06b0a39a3303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b4c69c20d17d4d9c9f5c8a34c77288') in 0.005299 seconds
+  Import took 0.007358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/UI/Food/muffin_NE.png
+  artifactKey: Guid(5565e0c22dd6ab94585fe71ab2f397a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/muffin_NE.png using Guid(5565e0c22dd6ab94585fe71ab2f397a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab3a5205c72c11315f803bd593ce040') in 0.004173 seconds
+  Import took 0.005878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/UI/Used/Sweets/muffin_SW.png
+  artifactKey: Guid(5e8ada72fdc8f1e458e492d6b3a74f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Sweets/muffin_SW.png using Guid(5e8ada72fdc8f1e458e492d6b3a74f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fb2683cde50abbbfe74a2141c69dd6') in 0.004275 seconds
+  Import took 0.005793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/UI/Food/mussel_SE.png
+  artifactKey: Guid(906d30747a216f2418557af6288bdf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mussel_SE.png using Guid(906d30747a216f2418557af6288bdf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108860e441fd9c6bdf29b407a03904b2') in 0.004009 seconds
+  Import took 0.005512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/UI/Food/mortar_NE.png
+  artifactKey: Guid(02e0e91626afd4b41ab32ddfeefbcb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mortar_NE.png using Guid(02e0e91626afd4b41ab32ddfeefbcb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb8b485a198e81ff67dbe8e1b59bb70') in 0.004309 seconds
+  Import took 0.005801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/UI/Food/musselOpen_NE.png
+  artifactKey: Guid(3407686c810480e419f17812663d8f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/musselOpen_NE.png using Guid(3407686c810480e419f17812663d8f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fbe084f9288fac821f62932817b90e') in 0.004318 seconds
+  Import took 0.005913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/UI/Food/mussel_SW.png
+  artifactKey: Guid(53a32020c6e12f44292ad317af5a4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mussel_SW.png using Guid(53a32020c6e12f44292ad317af5a4710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df47398b4fe653d8fcaa51c4bb25ebc') in 0.005292 seconds
+  Import took 0.007094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/UI/Food/mushroomHalf_SE.png
+  artifactKey: Guid(5386ad2ab1b7ce745bcbe265bfa2b678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroomHalf_SE.png using Guid(5386ad2ab1b7ce745bcbe265bfa2b678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bce75183f11c6af1b3a359c0b926c4f') in 0.004575 seconds
+  Import took 0.006472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/UI/Food/musselOpen_NW.png
+  artifactKey: Guid(defca9f2df394f344816bb5765db1959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/musselOpen_NW.png using Guid(defca9f2df394f344816bb5765db1959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1744ab98adffc5b67cc598c9d112d8b') in 0.004119 seconds
+  Import took 0.005863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/musselOpen_SE.png
+  artifactKey: Guid(e28962de5387e9c48a4137a73c033db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/musselOpen_SE.png using Guid(e28962de5387e9c48a4137a73c033db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4dad4c6a7af7cd23ce1c48ed7ebcb1') in 0.004083 seconds
+  Import took 0.005543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/UI/Food/mushroom_SW.png
+  artifactKey: Guid(fe28705ca8730a7498981aa1be2c19f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroom_SW.png using Guid(fe28705ca8730a7498981aa1be2c19f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23b9d2e03485d4dfd46824cc82f94b7') in 0.004489 seconds
+  Import took 0.006053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/UI/Food/mushroom_NE.png
+  artifactKey: Guid(c1b9ea95b405d2e41a324344debbcf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mushroom_NE.png using Guid(c1b9ea95b405d2e41a324344debbcf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1232a2b9e2f4389d89ce570217c2c029') in 0.004716 seconds
+  Import took 0.006384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/UI/Food/meatTenderizer_SE.png
+  artifactKey: Guid(a79452836cd31264fac7ba9afabfc509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/meatTenderizer_SE.png using Guid(a79452836cd31264fac7ba9afabfc509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febcf664c06dbfbfb8c645f4bec7b19a') in 0.003735 seconds
+  Import took 0.004993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/UI/Food/muffin_NW.png
+  artifactKey: Guid(6539731454e624e448db87cf74ba6fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/muffin_NW.png using Guid(6539731454e624e448db87cf74ba6fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e1f3b8c1fa96ddfc54d56a8bcb7a8d') in 0.003796 seconds
+  Import took 0.005168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/mug_SW.png
+  artifactKey: Guid(2a5dbdfe611ea8b40a24e130e0717181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mug_SW.png using Guid(2a5dbdfe611ea8b40a24e130e0717181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c9e0db50129a6be4fa0c3aee561ae') in 0.003749 seconds
+  Import took 0.005070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Food/muffin_NW.png
+  artifactKey: Guid(6539731454e624e448db87cf74ba6fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/muffin_NW.png using Guid(6539731454e624e448db87cf74ba6fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e1f3b8c1fa96ddfc54d56a8bcb7a8d') in 0.003867 seconds
+  Import took 0.005187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/UI/Food/mug_SW.png
+  artifactKey: Guid(2a5dbdfe611ea8b40a24e130e0717181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/mug_SW.png using Guid(2a5dbdfe611ea8b40a24e130e0717181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c9e0db50129a6be4fa0c3aee561ae') in 0.004883 seconds
+  Import took 0.006779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103123 seconds.
+  path: Assets/UI/Food/musselOpen_SW.png
+  artifactKey: Guid(788463e8ec5f5464c90a9ac947779efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/musselOpen_SW.png using Guid(788463e8ec5f5464c90a9ac947779efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8025cbfce332d73e550958b26bd72456') in 0.004471 seconds
+  Import took 0.006661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/UI/Food/onionHalf_SW.png
+  artifactKey: Guid(7722eaaf3b4fe9242ad63eb7d7facc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/onionHalf_SW.png using Guid(7722eaaf3b4fe9242ad63eb7d7facc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb35c228d1633804fad25bce457742d') in 0.004201 seconds
+  Import took 0.005721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Used/Vegg/onionHalf_NE.png
+  artifactKey: Guid(9e3c321691c861e4d80d1964cd42a5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Vegg/onionHalf_NE.png using Guid(9e3c321691c861e4d80d1964cd42a5ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b4540803c41bbe7179ff236459e448') in 0.004095 seconds
+  Import took 0.005477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/onion_SW.png
+  artifactKey: Guid(7e94d6bf1e16e554196916d0a105fbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/onion_SW.png using Guid(7e94d6bf1e16e554196916d0a105fbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc09b610feed8d84086dc5710df9c0e') in 0.003655 seconds
+  Import took 0.004910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/orange_NE.png
+  artifactKey: Guid(e0a2ea7383e668644bb3ca613f98370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/orange_NE.png using Guid(e0a2ea7383e668644bb3ca613f98370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2cf68bfeebbd0e953979b9569a397d') in 0.004664 seconds
+  Import took 0.006170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/UI/Used/Vegg/onion_NE.png
+  artifactKey: Guid(8de305178f7d2124680b182d47383207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Vegg/onion_NE.png using Guid(8de305178f7d2124680b182d47383207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3095aae2bb355a6c301b7ba81fb8a82a') in 0.005347 seconds
+  Import took 0.006940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/onionHalf_SE.png
+  artifactKey: Guid(16cd8a4710b21054da71acfc13f0515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/onionHalf_SE.png using Guid(16cd8a4710b21054da71acfc13f0515b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dbf51b49aac83d450671f5232eb837') in 0.004027 seconds
+  Import took 0.005607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/UI/Food/onion_SE.png
+  artifactKey: Guid(53dde7e8ca695af4ea64be63d59dcdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/onion_SE.png using Guid(53dde7e8ca695af4ea64be63d59dcdb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abc00feceb369a3deae6b0ef9ccb6de') in 0.003786 seconds
+  Import took 0.005385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UI/Food/onionHalf_NW.png
+  artifactKey: Guid(cd39bb3c5e19e4e4c9fbc433c913e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/onionHalf_NW.png using Guid(cd39bb3c5e19e4e4c9fbc433c913e60e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5de586950d1781d567ef81133b25af') in 0.003720 seconds
+  Import took 0.005075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/UI/Food/orange_SW.png
+  artifactKey: Guid(2715391c0f45471448b6f5ad61c1f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/orange_SW.png using Guid(2715391c0f45471448b6f5ad61c1f09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a743995180ad4eb6a28c601b5be0434') in 0.003563 seconds
+  Import took 0.004930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/UI/Food/pancakes_SE.png
+  artifactKey: Guid(feb9ffbf292e2634c90227adb51a8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pancakes_SE.png using Guid(feb9ffbf292e2634c90227adb51a8165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4362698250c69d00f19598e02cfa7f') in 0.005657 seconds
+  Import took 0.007542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/UI/Used/2_FROOT/orange_SE.png
+  artifactKey: Guid(71c774a34ba75f0449928461febc22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/2_FROOT/orange_SE.png using Guid(71c774a34ba75f0449928461febc22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac007d22593df55a59fcd6f88566c10c') in 0.004609 seconds
+  Import took 0.006475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/UI/Food/pan_SE.png
+  artifactKey: Guid(81a97924ad1849f49a2cc918accbb85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pan_SE.png using Guid(81a97924ad1849f49a2cc918accbb85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65e3db3f1ed72db701e6ea4fab71157') in 0.004387 seconds
+  Import took 0.006060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/orange_NW.png
+  artifactKey: Guid(8ed3b9dc32989ff4b9b7782811734bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/orange_NW.png using Guid(8ed3b9dc32989ff4b9b7782811734bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6418398f89aaf14d327d1eeceb3908') in 0.004050 seconds
+  Import took 0.005590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Food/pancakes_NW.png
+  artifactKey: Guid(66b59a3653f32ad4db906a4609588cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pancakes_NW.png using Guid(66b59a3653f32ad4db906a4609588cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17728ffd809e0b36eb56ca009a0252e') in 0.004013 seconds
+  Import took 0.005431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/UI/Food/paprikaSlice_NE.png
+  artifactKey: Guid(40c60e717df4a044fa278616319d30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/paprikaSlice_NE.png using Guid(40c60e717df4a044fa278616319d30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec76827c6593330f72b95399f6af3f6') in 0.004542 seconds
+  Import took 0.006330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UI/Used/Test/panStew_NE.png
+  artifactKey: Guid(9fa59d8a95d2c994ab55bb5af4a8f4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Used/Test/panStew_NE.png using Guid(9fa59d8a95d2c994ab55bb5af4a8f4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8679d922fcebb367c0b4a4db894bb17') in 0.005932 seconds
+  Import took 0.007599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/paprika_SW.png
+  artifactKey: Guid(c2ac8191895b5694ca12f17faa29a425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/paprika_SW.png using Guid(c2ac8191895b5694ca12f17faa29a425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71781ffa58c3b39d856bc5afc4f9d11') in 0.004103 seconds
+  Import took 0.005710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/UI/Food/paprika_SE.png
+  artifactKey: Guid(5077e7d9efe588b459496832102b1ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/paprika_SE.png using Guid(5077e7d9efe588b459496832102b1ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409b27aa70fd48c1046310c868c17e25') in 0.004080 seconds
+  Import took 0.005640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/UI/Food/pan_NE.png
+  artifactKey: Guid(12e049844b8a64745ab17aff61da05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pan_NE.png using Guid(12e049844b8a64745ab17aff61da05a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a411540de436725e52baaba7ff685f') in 0.004443 seconds
+  Import took 0.006079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/UI/Food/pan_SW.png
+  artifactKey: Guid(df370ed21219a0d4da204d194fbd8754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pan_SW.png using Guid(df370ed21219a0d4da204d194fbd8754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9776f1478d6695555998ba44805aad') in 0.006566 seconds
+  Import took 0.008343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/UI/Food/paprika_NW.png
+  artifactKey: Guid(37bd0c236c7841e42bbdeba2480d51bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/paprika_NW.png using Guid(37bd0c236c7841e42bbdeba2480d51bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa36f382c3c51d61ec98b207ee4dbb3') in 0.004249 seconds
+  Import took 0.006456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/UI/Food/pancakes_NE.png
+  artifactKey: Guid(eda4140af85c8224d8748a5a0eecf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pancakes_NE.png using Guid(eda4140af85c8224d8748a5a0eecf124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f4f2cab26f325f734598b2f2dcd805') in 0.004427 seconds
+  Import took 0.005917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/UI/Food/pan_NW.png
+  artifactKey: Guid(4b5b68263666813469184ad403b30f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pan_NW.png using Guid(4b5b68263666813469184ad403b30f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a52bc20f446d07c2bceaaefdefe14d5') in 0.004409 seconds
+  Import took 0.005929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/panStew_NW.png
+  artifactKey: Guid(5b4c665f9bd45774bbeccd7df3dd273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/panStew_NW.png using Guid(5b4c665f9bd45774bbeccd7df3dd273b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d825b3ddb94157aba55a442efabd6') in 0.003998 seconds
+  Import took 0.005503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UI/Food/onion_NW.png
+  artifactKey: Guid(388f1a9c3a4258e408479310fbc1023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/onion_NW.png using Guid(388f1a9c3a4258e408479310fbc1023f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0c4cb0952147a6b5e317b8a05d5e26') in 0.004583 seconds
+  Import took 0.006147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UI/Food/panStew_SE.png
+  artifactKey: Guid(01af31d3478af4b499fe4c3b34e3050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/panStew_SE.png using Guid(01af31d3478af4b499fe4c3b34e3050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5170601ec7231ff1029193049cdcade5') in 0.005138 seconds
+  Import took 0.007084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/UI/Food/pan_NW.png
+  artifactKey: Guid(4b5b68263666813469184ad403b30f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pan_NW.png using Guid(4b5b68263666813469184ad403b30f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a52bc20f446d07c2bceaaefdefe14d5') in 0.004000 seconds
+  Import took 0.005766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/UI/Food/pancakes_SW.png
+  artifactKey: Guid(7cea5b8d1f642634ebe7b9af67c2690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pancakes_SW.png using Guid(7cea5b8d1f642634ebe7b9af67c2690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b0657a21920132344b50b83221704') in 0.005367 seconds
+  Import took 0.006832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/UI/Food/panStew_SW.png
+  artifactKey: Guid(333d4663cbbe1a944afc739f65dcf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/panStew_SW.png using Guid(333d4663cbbe1a944afc739f65dcf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998db6bdb482ccd478c427d2d8a2db4') in 0.004356 seconds
+  Import took 0.005791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/UI/Food/pancakes_SW.png
+  artifactKey: Guid(7cea5b8d1f642634ebe7b9af67c2690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/pancakes_SW.png using Guid(7cea5b8d1f642634ebe7b9af67c2690e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3b0657a21920132344b50b83221704') in 0.004222 seconds
+  Import took 0.005801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/UI/Food/paprika_NE.png
+  artifactKey: Guid(d466210aff786b74ba5cb121ef4aa3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/paprika_NE.png using Guid(d466210aff786b74ba5cb121ef4aa3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0ac669871ed401101ae260f0cf7d17') in 0.004659 seconds
+  Import took 0.006209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004241 seconds.
+  path: Assets/UI/Food/panStew_SW.png
+  artifactKey: Guid(333d4663cbbe1a944afc739f65dcf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Food/panStew_SW.png using Guid(333d4663cbbe1a944afc739f65dcf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998db6bdb482ccd478c427d2d8a2db4') in 0.004105 seconds
+  Import took 0.005728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.259594 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6c03ca61d37914cc2a4d00a2e5cd8519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6c03ca61d37914cc2a4d00a2e5cd8519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b21d6861afb4ead70eab39a921bdf5d') in 0.000853 seconds
+  Import took 0.002959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.472907 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(eba6e74af89fa4d1ca55c7aebea3ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(eba6e74af89fa4d1ca55c7aebea3ab17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38714eb06bd4cf949e0048342863b030') in 0.000857 seconds
+  Import took 0.003076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974702 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23f7a07fd8434fa1e0aae76632dec89') in 0.001155 seconds
+  Import took 0.003170 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.506 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 1.466300 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.027800 ms MarkObjects: 1.270300 ms  DeleteObjects: 0.015300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001353 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 1.651700 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.433900 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.537 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 1.727600 ms (FindLiveObjects: 0.169500 ms CreateObjectMapping: 0.055500 ms MarkObjects: 1.487700 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 1.637500 ms (FindLiveObjects: 0.119100 ms CreateObjectMapping: 0.032300 ms MarkObjects: 1.469400 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1921.
+Total: 1.977500 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.735000 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.554 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 1.545100 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.052700 ms MarkObjects: 1.331700 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

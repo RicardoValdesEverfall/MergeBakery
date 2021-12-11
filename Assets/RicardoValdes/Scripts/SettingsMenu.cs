@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 using TMPro;
 
 public class SettingsMenu : MonoBehaviour
@@ -9,15 +10,37 @@ public class SettingsMenu : MonoBehaviour
     [SerializeField] TextMeshProUGUI quitToMMButton;
 
     public AudioSource musicSource;
-
     public SceneManagement _SMsceneManagement = SceneManagement.SceneManagementInstance;
+    public TMP_Dropdown resolutionMenu;
 
+    Resolution[] resolutions;
     private void Start()
     {
         if (!quitToMMButton)
         {
             quitToMMButton = GameObject.FindGameObjectWithTag("QuitToMM").GetComponent<TextMeshProUGUI>();
         }
+
+        //Ricardo Dec. 10: This block of code allows the Resolution Dropdown menu inside the Settings Menu to display all available resolutions on a per-system basis.
+        resolutions = Screen.resolutions;  
+        resolutionMenu.ClearOptions();
+
+        List<string> resOptions = new List<string>();  //List instead of string array because of AddOption() method.
+
+        int currentResIndex = 0;
+        for (int i = 0; i < resolutions.Length; i++)
+        {
+            string resOption = resolutions[i].width + "x" + resolutions[i].height;
+            resOptions.Add(resOption);
+
+            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height) //Unity does not allow for Resolution to compare to Screen.currentResolution.
+            {                                                                                                                       //so we have to compare width then height instead.
+                currentResIndex = i;
+            }
+        }
+        resolutionMenu.AddOptions(resOptions);
+        resolutionMenu.value = currentResIndex;
+        resolutionMenu.RefreshShownValue();
     }
 
     public void SetVolume (float vol)
@@ -25,9 +48,10 @@ public class SettingsMenu : MonoBehaviour
         musicSource.volume = vol;
     }
 
-    public void ChangeResolution()
+    public void ChangeResolution(int resolutionIndex)
     {
-
+        Resolution resolution = resolutions[resolutionIndex];
+        Screen.SetResolution(resolution.width, resolution.height, false);
     }
 
     public void SetGameTo3D()

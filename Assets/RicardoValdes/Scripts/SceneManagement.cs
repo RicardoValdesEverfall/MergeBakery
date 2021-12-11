@@ -87,12 +87,13 @@ public class SceneManagement : MonoBehaviour //Handles Scene UI both in-game and
     public IEnumerator LoadDesiredScene(int desiredScene)
     {
         currentScene = desiredScene;
-        sceneTransition.SetTrigger("Transition");
+        sceneTransition.SetBool("Fade", true);
 
         yield return new WaitForSeconds(0.43f); //Ricardo Dec. 10:  Wait for the length of the transition animation, then load the next scene.
-                                               //                  This could have been triggered by an Animation Event instead, but for the sake 
-                                               //                  of keeping everything under one function, I opted for this solution instead.
+                                                //                  This could have been triggered by an Animation Event instead, but for the sake 
+                                                //                  of keeping everything under one function, I opted for this solution instead.
         SceneManager.LoadScene(desiredScene);
+        sceneTransition.SetBool("Fade", false);
     }
 
     public void QuitGame()

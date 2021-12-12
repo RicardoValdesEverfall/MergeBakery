@@ -10,12 +10,14 @@ public class SettingsMenu : MonoBehaviour
     [SerializeField] TextMeshProUGUI quitToMMButton;
 
     public AudioSource musicSource;
-    public SceneManagement _SMsceneManagement = SceneManagement.SceneManagementInstance;
+    public SceneManagement _SMsceneManagement;
     public TMP_Dropdown resolutionMenu;
 
     Resolution[] resolutions;
     private void Start()
     {
+        _SMsceneManagement = SceneManagement.SceneManagementInstance;
+
         if (!quitToMMButton)
         {
             quitToMMButton = GameObject.FindGameObjectWithTag("QuitToMM").GetComponent<TextMeshProUGUI>();
@@ -66,7 +68,7 @@ public class SettingsMenu : MonoBehaviour
 
     public void QuitToMainMenu()
     {
-        _SMsceneManagement.LoadDesiredScene(0);
+        StartCoroutine(_SMsceneManagement.LoadDesiredScene(0));
     }
 
     public void ShowSettingsMenu(bool enableOrDisable) //Ricardo, Dec. 8: True = Enabled, False = Disabled.
@@ -75,20 +77,26 @@ public class SettingsMenu : MonoBehaviour
         {
             quitToMMButton.enabled = false;
         }
+        else
+        {
+            quitToMMButton.enabled = true;
+        }
 
-        switch (enableOrDisable) //Ricardo, Dec. 8: Using a switch here only because its more aesthetic lol.
+        switch (enableOrDisable) //Ricardo, Dec. 8: Using a switch here only because its more "aesthetic".
         {
             case true:
                 gameObject.SetActive(true);
                 //pause
-                //play audio
+                //play SFX audio
+                _SMsceneManagement.gameSettingsButton.SetActive(false);
                 _SMsceneManagement.isInSettings = true;
                 return;
 
             case false:
                 gameObject.SetActive(false);
                 //resume
-                //play audio
+                //play SFX audio
+                _SMsceneManagement.gameSettingsButton.SetActive(true);
                 _SMsceneManagement.isInSettings = false;
                 return;
         }

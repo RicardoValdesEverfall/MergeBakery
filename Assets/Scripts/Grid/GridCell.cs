@@ -10,8 +10,8 @@ public class GridCell : MonoBehaviour
     [SerializeField] private GridCell _down;
     [SerializeField] private GridHandler _handler;
     
-    private MergableItem _item;
-    public MergableItem Item => _item;
+    public MergableItem _item;
+    public bool HasItem;
 
     public void SpawnItem(NodeContainer item)
     {
@@ -20,6 +20,7 @@ public class GridCell : MonoBehaviour
         var game = Game.GameInstance; //Ricardo, Dec 9: Fixed to use Game.cs as a singleton instead of expensive object search.
 		var obj = Instantiate(game.DraggableObjectPrefab);
 	    obj.Configure(item, this);
+        HasItem = true;
     }
     
     public void SetHandler(GridHandler handler)
@@ -34,7 +35,7 @@ public class GridCell : MonoBehaviour
        
         if (_item != null)
             _handler.SetCellState(_item.GetCurrentCell(), true);
-        
+      
         _item = item;
         _handler.SetCellState(this, _item != null);
     }
@@ -57,12 +58,6 @@ public class GridCell : MonoBehaviour
                 break;
       
         }
-    }
-
-
-    public bool HasItem()
-    {
-        return _item != null;
     }
 
     public void ClearItem()

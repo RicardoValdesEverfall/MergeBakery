@@ -58,14 +58,13 @@ public class MergableItem : DraggableObject
             var targets = _rayCast.GetTargets();
             foreach (var slot in targets)
             {
-                if (slot.HasItem() == false)
-                {
-                    Debug.Log("end");
-                    AssignToCell(slot);
-                    return;
-                }
+            
+                Debug.Log("end");
+                AssignToCell(slot);
+                _parentCell.SetItemAssigned(null);
+                return;
+                
             }
-            // TODO: else what do we do?
         }
         else
         {

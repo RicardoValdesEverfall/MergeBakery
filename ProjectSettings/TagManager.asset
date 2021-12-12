@@ -9,6 +9,7 @@ TagManager:
   - QuitToMM
   - MainMenu
   - SettingsMenu
+  - GameSettingsButton
   layers:
   - Default
   - TransparentFX

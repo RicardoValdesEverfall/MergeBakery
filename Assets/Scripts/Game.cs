@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
 
 public class Game : MonoBehaviour
@@ -11,6 +10,7 @@ public class Game : MonoBehaviour
 
     public MergableItem DraggableObjectPrefab;
     public GridHandler MainGrid;
+    public SceneManagement _GMsceneManagement;
 
     [Range(0f, 1f)] public float itemDensity;
 
@@ -19,22 +19,41 @@ public class Game : MonoBehaviour
 
     private void Awake()
     {
-        if (_gameInstance && _gameInstance != this)
+        _GMsceneManagement = SceneManagement.SceneManagementInstance;
+            if (_gameInstance && _gameInstance != this)
+            {
+                Destroy(this.gameObject);
+            }
+            else
+            {
+                // load all item definitions
+                _gameInstance = this;
+                DontDestroyOnLoad(this);
+            }
+
+            if (_GMsceneManagement.hasRunGame == false)
+            {
+                ItemUtils.InitializeMap();
+                _GMsceneManagement.hasRunGame = true;
+            }
+            else
+            {
+                ReloadLevel(1);
+            }
+
+
+            Screen.fullScreen = false; // https://issuetracker.unity3d.com/issues/game-is-not-built-in-windowed-mode-when-changing-the-build-settings-from-exclusive-fullscreen
+
+            //Ricardo Valdes, Dec. 7th: Added this log to print a line to console each time the Game.cs class is initialized. 
+            Debug.Log("Game Instance Created at ", gameObject);
+    }
+
+    public void Update()
+    {
+        if (_GMsceneManagement.currentScene == 0)
         {
-            Destroy(this.gameObject);
+            gameObject.SetActive(false);
         }
-        else
-        {
-            _gameInstance = this;
-        }
-
-        Screen.fullScreen = false; // https://issuetracker.unity3d.com/issues/game-is-not-built-in-windowed-mode-when-changing-the-build-settings-from-exclusive-fullscreen
-
-        // load all item definitions
-        ItemUtils.InitializeMap();
-
-        //Ricardo Valdes, Dec. 7th: Added this log to print a line to console each time the Game.cs class is initialized. 
-        Debug.Log("Game Instance Created at ", gameObject);
     }
 
     private void Start()
@@ -62,8 +81,6 @@ public class Game : MonoBehaviour
         // populate the board
         GridCell[] emptyCells = MainGrid.GetEmptyCells.ToArray();
         int itemsToSpawn = (int)(emptyCells.ToArray().Length * itemDensity);
-
-        Debug.Log("Number of items that will be spawned: " + itemsToSpawn);
 
             for (int i = 0; i < emptyCells.ToArray().Length; i++)
             {

@@ -27,8 +27,8 @@ public class MixingGridHandler : GridHandler
 		var mixItems = new Dictionary<GridCell, NodeContainer>();
 		foreach (var cell in _fullCells)
 		{
-			if (cell.Item != null)
-				mixItems[cell] = cell.Item.ItemData;
+			if (cell._item != null)
+				mixItems[cell] = cell._item.ItemData;
 		}
 
 		var result = ItemUtils.FindBestRecipe(mixItems.Values.ToArray());

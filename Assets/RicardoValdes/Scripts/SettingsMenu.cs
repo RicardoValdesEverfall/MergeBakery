@@ -32,7 +32,7 @@ public class SettingsMenu : MonoBehaviour
         int currentResIndex = 0;
         for (int i = 0; i < resolutions.Length; i++)
         {
-            string resOption = resolutions[i].width + "x" + resolutions[i].height;
+            string resOption = resolutions[i].width + " x " + resolutions[i].height;
             resOptions.Add(resOption);
 
             if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height) //Unity does not allow for Resolution to compare to Screen.currentResolution.

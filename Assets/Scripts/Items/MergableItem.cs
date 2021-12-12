@@ -57,13 +57,11 @@ public class MergableItem : DraggableObject
             //we hit a slot
             var targets = _rayCast.GetTargets();
             foreach (var slot in targets)
-            {
-            
+            {        
                 Debug.Log("end");
                 AssignToCell(slot);
                 _parentCell.SetItemAssigned(null);
-                return;
-                
+                return;         
             }
         }
         else
